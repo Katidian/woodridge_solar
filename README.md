@@ -1,4 +1,4 @@
-# Woodridge Solar
+# Woodridge Solar PV array boundaries map
 
 This project maps the approximate boundaries of where Charlottesville-based Hexagon Energy proposes to place PV panels as part of its Woodridge Solar project, for which 
 it is seeking a special use permit from Albemarle County, Virginia.
