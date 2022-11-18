@@ -11,10 +11,21 @@ by Livable Cville on November 15, 2022.
 
 ## PV panel boundaries
 Hexagon Energy's May 16, 2022, [special use permit application](https://lfweb.albemarle.org/WebLink/DocView.aspx?id=1490382&dbid=0&repo=CountyofAlbemarle&cr=1) provides
-geographical coordinates representing the boundaries of where the company proposes to place PV panels. The panels will not fill the entire area outlined in my map, as
-they will occupy smaller sections within those boundaries.
+geographical coordinates representing the boundaries of where the company proposes to place PV panels. The panels will not fill the entire areas outlined in my map, as
+they will occupy smaller sections within those boundaries. Hexagon used these coordinates to conduct a glare analysis for its proposal.
 
 ## Making the map
-The SUP application is a PDF file. I copied the coordinates data tables from the PDF into Excel and cleaned it there. I then used [this site](https://www.convertcsv.com/csv-to-geojson.htm) from convertcsv.com to create a GeoJSON file with the coordinates data. 
+The SUP application is a PDF file. I copied the coordinates data tables from the PDF into Excel and cleaned it there. I then used [this tool]
+(https://www.convertcsv.com/csv-to-geojson.htm) from convertcsv.com to create a GeoJSON file with the coordinates data for each of the three proposed PV arrays. 
 
-![Map showing the outlines of three polygons on a map with a satellite view of a rural area in southeastern Albemarle County, Virginia](Map_satellite_streets.png)
+![Screenshot of data from a GeoJSON file showing geographical coordinates for two PV arrays](geojson_image.png)
+
+I created the map using Mapbox and Leaflet. The map allows users to click on each of the three solar array polygon outlines. The pop-up box shows the number of the array
+and its rated power.
+
+![Outlines of three polygons on a map with a satellite view of a rural area, with a popup box for one of the polygons showing array name PV3 and rated power of 26 MW](Map_popup.png)
+
+## To do
+Array PV1 has an odd shape on its southeastern corner, as rendered by my map. The triangle that appears there may be due to an issue in the underlying coordinates data;
+it may be due to an issue that arose when I cleaned the data; or it may be an accurate representation of the PV array boundaries. Before publishing this map anywhere, I 
+would need to investigate this question. 
