@@ -10,7 +10,7 @@ For more on the proposed solar facility, see the [FAQ](https://myneighborsgroup.
 by [Livable Cville](https://livablecville.org/) on November 15, 2022.
 
 ## PV panel boundaries
-Hexagon Energy's May 16, 2022, [special use permit application](https://lfweb.albemarle.org/WebLink/DocView.aspx?id=1490382&dbid=0&repo=CountyofAlbemarle&cr=1) provides
+Hexagon Energy's May 16, 2022, [special use permit application](2022.05.16_Woodridge_application.pdf) provides
 geographical coordinates representing the boundaries of where the company proposes to place PV panels. The panels will not fill the entire areas outlined in my map, as
 they will occupy smaller sections within those boundaries. Hexagon used these coordinates to conduct a glare analysis for its proposal.
 
