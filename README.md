@@ -4,10 +4,10 @@ This project maps the approximate boundaries of where Charlottesville-based Hexa
 it is seeking a special use permit from Albemarle County, Virginia.
 
 If approved, the Woodridge Solar facility would occupy approximately 1,500 acres in the southeast part of the county, with solar panels spread out in clusters over
-that area (nearly 650 acres of solar panel total). 
+that area (nearly 650 acres of total solar panels). 
 
 For more on the proposed solar facility, see the [FAQ](https://myneighborsgroup.files.wordpress.com/2022/11/woodbridge-solar-faq-by-livable-cville.pdf) published 
-by Livable Cville on November 15, 2022.
+by [Livable Cville](https://livablecville.org/) on November 15, 2022.
 
 ## PV panel boundaries
 Hexagon Energy's May 16, 2022, [special use permit application](https://lfweb.albemarle.org/WebLink/DocView.aspx?id=1490382&dbid=0&repo=CountyofAlbemarle&cr=1) provides
@@ -15,8 +15,8 @@ geographical coordinates representing the boundaries of where the company propos
 they will occupy smaller sections within those boundaries. Hexagon used these coordinates to conduct a glare analysis for its proposal.
 
 ## Making the map
-The SUP application is a PDF file. I copied the coordinates data tables from the PDF into Excel and cleaned it there. I then used [this tool]
-(https://www.convertcsv.com/csv-to-geojson.htm) from convertcsv.com to create a GeoJSON file with the coordinates data for each of the three proposed PV arrays. 
+The SUP application is a PDF file. I copied the coordinates data tables from the PDF into Excel and cleaned it there. I then used 
+[ConvertCSV.com](https://www.convertcsv.com/) to create a GeoJSON file with the coordinates data for each of the three proposed PV arrays. 
 
 ![Screenshot of data from a GeoJSON file showing geographical coordinates for two PV arrays](geojson_image.png)
 
