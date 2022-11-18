@@ -21,7 +21,7 @@ The SUP application is a PDF file. I copied the coordinates data tables from the
 ![Screenshot of data from a GeoJSON file showing geographical coordinates for two PV arrays](geojson_image.png)
 
 I created the map using Mapbox and Leaflet. The map allows users to click on each of the three solar array polygon outlines. The pop-up box shows the number of the array
-and its rated power.
+and its rated power. Users can also choose whether to show the satellite-and-streets map layer or the OpenStreetMap layer.
 
 ![Outlines of three polygons on a map with a satellite view of a rural area, with a popup box for one of the polygons showing array name PV3 and rated power of 26 MW](Map_popup.png)
 
