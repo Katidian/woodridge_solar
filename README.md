@@ -16,3 +16,5 @@ they will occupy smaller sections within those boundaries.
 
 ## Making the map
 The SUP application is a PDF file. I copied the coordinates data tables from the PDF into Excel and cleaned it there. I then used [this site](https://www.convertcsv.com/csv-to-geojson.htm) from convertcsv.com to create a GeoJSON file with the coordinates data. 
+
+![Map showing the outlines of three polygons on a map with a satellite view of a rural area in southeastern Albemarle County, Virginia](Map_satellite_streets.png)
